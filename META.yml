@@ -1,0 +1,22 @@
+---
+name: SMS-Send-AT-SmsAt
+version: v0.0.3
+author:
+  - 'Stefan Seifert <stefan.seifert@atikon.com>'
+abstract: driver for sending SMS through gateway.sms.at
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  SMS::Send: 0
+  Test::More: 0
+  XML::XPath: 0
+  version: 0
+provides:
+  SMS::Send::AT::SmsAt:
+    file: lib/SMS/Send/AT/SmsAt.pm
+    version: v0.0.3
+generated_by: Module::Build version 0.2807
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
